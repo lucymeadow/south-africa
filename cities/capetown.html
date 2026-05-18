@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cape Town &mdash; South Africa Travel Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23d9622f'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../"><span class="mark">●</span> South Africa Travel Guide</a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="../must-see.html">Must See</a>
+        <a href="johannesburg.html">Joburg</a>
+        <a href="kruger.html">Safari</a>
+        <a href="capetown.html" class="active">Cape Town</a>
+        <a href="stellenbosch.html">Stellenbosch</a>
+        <a href="gardenroute.html">Garden Route</a>
+        <a href="../itinerary.html">Itinerary</a>
+        <a href="../map.html">Map</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../logistics.html">Logistics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <header class="city-header" style="--accent: var(--c-capetown);">
+        <div>
+          <p class="eyebrow">Cape Town &middot; Kaapstad</p>
+          <h1>Cape Town</h1>
+          <div class="city-meta">The base &middot; 6 nights total in Camps Bay, with the Garden Route in the middle.</div>
+        </div>
+        <div class="city-local-big">Kaapstad</div>
+      </header>
+
+      <div class="city-map-wrap">
+        <div id="city-map" data-city="capetown" aria-label="Map of places in Cape Town"></div>
+        <p class="city-map-caption">
+          <span>Click any pin for the note and links.</span>
+          <span><a href="../map.html">see the full trip map &rarr;</a></span>
+        </p>
+      </div>
+
+      <section class="section">
+
+        <div class="tag-row">
+          <span class="tag">Camps Bay base</span>
+          <span class="tag">Uber for everything</span>
+          <span class="tag">Hire a driver for Cape Point</span>
+          <span class="tag">Book restaurants ahead</span>
+        </div>
+
+        <p>
+          Cape Town is the anchor of any first South Africa trip. A walkable beach strip on the
+          Atlantic, a flat-topped mountain rising straight out of the city, an hour from the
+          winelands, an hour from a wild peninsula, and a working ferry to Mandela's prison.
+          We based both halves of our Cape Town time in <b>Camps Bay</b> &mdash; right on the
+          beach, with the Twelve Apostles range behind &mdash; and used Uber for everything in
+          town.
+        </p>
+
+        <h2>Where we stayed</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Stay</span></div>
+            <div class="body">
+              <h3><a href="https://www.primihotels.com/primiseacastle/" target="_blank" rel="noopener">Primi Seacastle</a></h3>
+              <p>Tiny boutique hotel right on the Camps Bay beach strip &mdash; Atlantic surf
+                outside the window, the Twelve Apostles behind. First-leg base; easy walking
+                to the strip's bars and restaurants.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Stay</span></div>
+            <div class="body">
+              <h3><a href="https://www.fairwaysonthebay.co.za/" target="_blank" rel="noopener">Fairways On The Bay</a></h3>
+              <p>Eight-room guesthouse a hundred meters from Camps Bay Beach. Quieter than the
+                strip itself, with proper rooms and a small pool. Used as the second Cape Town
+                base after the Garden Route loop.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Sights worth your time</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.sanparks.org/parks/table-mountain/" target="_blank" rel="noopener">Table Mountain</a></h3>
+              <p>The flat-topped icon. Take the cableway up on a clear morning or hike one of
+                the routes from Kirstenbosch. The famous "tablecloth" of cloud can roll in any
+                afternoon &mdash; if it's clear at 8am, go.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Do</span></div>
+            <div class="body">
+              <h3><a href="https://www.hiketablemountain.co.za/" target="_blank" rel="noopener">Skeleton Gorge / Nursery Ravine Hike</a></h3>
+              <p>The classic Table Mountain hike from the back, starting in Kirstenbosch.
+                5&ndash;6 hours up Skeleton Gorge and down Nursery Ravine. Go with a guide
+                from Hike Table Mountain &mdash; they know the weather windows and which route
+                to switch to if the wind picks up.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.sanbi.org/gardens/kirstenbosch/" target="_blank" rel="noopener">Kirstenbosch National Botanical Garden</a></h3>
+              <p>One of the world's great botanical gardens, on the eastern slopes of Table
+                Mountain. The Boomslang treetop canopy walk, the proteas, the tea room. In
+                summer (Nov&ndash;Mar) there are open-air <b>Sunday sunset concerts</b>.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.sanparks.org/parks/table-mountain/tourism/cape-of-good-hope/" target="_blank" rel="noopener">Cape of Good Hope &amp; Cape Point</a></h3>
+              <p>The southwestern tip of Africa. Best as a <b>full-day private loop</b> down
+                the peninsula with a local driver &mdash; Chapman's Peak Drive, the Cape itself,
+                the Boulders penguins, lunch in Simon's Town. We used
+                <a href="https://exquisitecapetoursandhikes.co.za/" target="_blank" rel="noopener">Lynette at Exquisite Cape Tours</a>
+                and the day she ran was exceptional.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.sanparks.org/parks/table-mountain/tourism/boulders/" target="_blank" rel="noopener">Boulders Penguin Colony</a></h3>
+              <p>A wild colony of ~2,000 African penguins on a beach in Simon's Town. Combine
+                with the Cape Point loop &mdash; they're 20 minutes apart.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.robben-island.org.za/" target="_blank" rel="noopener">Robben Island</a></h3>
+              <p>The prison where Nelson Mandela spent 18 of his 27 years. ~3.5-hour ferry-and-
+                tour from the V&amp;A Waterfront, guided by a former political prisoner.
+                <b>Book ahead</b> &mdash; weekday tours fill a week out.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.waterfront.co.za/" target="_blank" rel="noopener">V&amp;A Waterfront</a></h3>
+              <p>Working harbour redeveloped into Cape Town's main eating, shopping, and ferry
+                hub. The <b>V&amp;A Food Market</b> is a quick lunch; the
+                <a href="https://zeitzmocaa.museum/" target="_blank" rel="noopener">Zeitz MOCAA</a>
+                contemporary-art museum in the old grain silo is worth an hour, particularly
+                for the architecture by Heatherwick.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Lion%27s+Head+Cape+Town" target="_blank" rel="noopener">Lion's Head</a></h3>
+              <p>Conical peak next to Table Mountain &mdash; a shorter hike than the main
+                mountain, with 360-degree views. Locals do it for <b>sunrise</b> or for
+                <b>full-moon sunsets</b>; bring a headlamp and join the procession.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Neighborhoods to walk</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Neighborhood</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Bo-Kaap+Cape+Town" target="_blank" rel="noopener">Bo-Kaap</a></h3>
+              <p>Cape Malay neighborhood of brightly painted cobblestone streets on the slopes
+                of Signal Hill. Walk it on a Sunday morning; the
+                <a href="https://www.iziko.org.za/museums/bo-kaap-museum" target="_blank" rel="noopener">Bo-Kaap Museum</a>
+                tells the story behind the color, and several locals run small guided
+                walking tours.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Neighborhood</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Camps+Bay+Cape+Town" target="_blank" rel="noopener">Camps Bay &amp; Clifton</a></h3>
+              <p>The Atlantic Seaboard &mdash; white-sand beaches under the Twelve Apostles
+                range, palm-lined promenade, sundowner bars from one end to the other. Camps
+                Bay is louder and more touristy; the four Clifton coves next door are
+                quieter and prettier.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Where we ate (and drank)</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://www.kloofstreethouse.co.za/" target="_blank" rel="noopener">Kloof Street House</a></h3>
+              <p>Victorian house turned colonial-trendy restaurant on Kloof Street. Outdoor deck
+                under fairy lights, library room with a fireplace, eclectic seasonal menu. A
+                perfect first-night Cape Town dinner.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://codfather.co.za/" target="_blank" rel="noopener">The Codfather</a></h3>
+              <p>Camps Bay seafood and sushi institution &mdash; you walk in, pick your fish off
+                the ice with the chef, they cook it however you ask. Loud, casual, fun.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$$</span></div>
+            <div class="body">
+              <h3><a href="https://www.lacolombe.co.za/" target="_blank" rel="noopener">La Colombe</a></h3>
+              <p>Tasting-menu fine dining in a forest setting in Constantia. Consistently in the
+                country's top 3 restaurants; the cape-malay-influenced menu is genuinely
+                inventive. Long-lunch territory; book months ahead.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$$</span></div>
+            <div class="body">
+              <h3><a href="https://thepotluckclub.co.za/" target="_blank" rel="noopener">The Pot Luck Club</a></h3>
+              <p>Luke Dale Roberts's small-plates spot at the top of the silo at the Old Biscuit
+                Mill, Woodstock. 360 city views, tasting menu of five-flavor categories. Book
+                weeks ahead and pair with a morning at the Saturday Neighbourgoods Market
+                downstairs.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$$</span></div>
+            <div class="body">
+              <h3><a href="https://www.12apostleshotel.com/restaurants-and-bars/azure-restaurant/" target="_blank" rel="noopener">Azure at the Twelve Apostles</a></h3>
+              <p>Cliffside restaurant at the Twelve Apostles Hotel, between Camps Bay and
+                Llandudno. The drive down the coast at sunset is half the experience.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Savoy+Cabbage+Cape+Town" target="_blank" rel="noopener">Savoy Cabbage</a></h3>
+              <p>Long-running farm-to-table bistro in the CBD &mdash; known for the tomato tart
+                and the ostrich carpaccio.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Eastern+Food+Bazaar+Cape+Town" target="_blank" rel="noopener">Eastern Food Bazaar</a></h3>
+              <p>Cheap-and-cheerful pan-Asian food hall on Longmarket Street &mdash; biryani,
+                curry, dosas, kebabs from a dozen counters. Easy lunch break in the CBD.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Drink</span></div>
+            <div class="body">
+              <h3><a href="https://thebungalow.co.za/" target="_blank" rel="noopener">The Bungalow</a></h3>
+              <p>Glass-front beach club at Clifton 3, with a wraparound deck overhanging the
+                Atlantic. The food is fine; the view is the point. Sundowners on the deck is
+                the move &mdash; reserve.</p>
+            </div>
+          </li>
+        </ul>
+
+        <hr class="divider">
+        <p class="muted">
+          Want to make a day of it next door? See <a href="stellenbosch.html">Stellenbosch &amp; the
+          Winelands</a>. Want to road-trip east? See the <a href="gardenroute.html">Garden Route</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>Trip taken Nov 2017 &middot; share freely</div>
+      <div><a href="../">&larr; back to overview</a></div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="../assets/js/city-map.js"></script>
+</body>
+</html>

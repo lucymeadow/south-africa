@@ -1,0 +1,503 @@
+{
+  "cities": {
+    "johannesburg": {
+      "name": "Johannesburg",
+      "name_local": "iGoli",
+      "lat": -26.2041028,
+      "lon": 28.0473051,
+      "color": "#C9A227"
+    },
+    "kruger": {
+      "name": "Greater Kruger",
+      "name_local": "Bushveld",
+      "lat": -24.381338,
+      "lon": 31.321872,
+      "color": "#6A4A23"
+    },
+    "capetown": {
+      "name": "Cape Town",
+      "name_local": "Kaapstad",
+      "lat": -33.9248685,
+      "lon": 18.4240553,
+      "color": "#2D6A8F"
+    },
+    "stellenbosch": {
+      "name": "Stellenbosch",
+      "name_local": "Eikestad",
+      "lat": -33.9321045,
+      "lon": 18.860152,
+      "color": "#6E2335"
+    },
+    "gardenroute": {
+      "name": "Garden Route",
+      "name_local": "Tuinroete",
+      "lat": -34.04,
+      "lon": 23.05,
+      "color": "#2F7D52"
+    }
+  },
+  "places": [
+    {
+      "city": "johannesburg",
+      "category": "stay",
+      "name": "The Capital Empire",
+      "url": "https://www.thecapital.co.za/our-hotels/the-capital-empire-sandton",
+      "lat": -26.1124699,
+      "lon": 28.05145,
+      "note": "Apartment-style hotel in Sandton, the modern business heart of Jozi. Used both nights either side of the safari — easy to and from O.R. Tambo.",
+      "mustSee": false
+    },
+    {
+      "city": "johannesburg",
+      "category": "see",
+      "name": "Nelson Mandela Square",
+      "url": null,
+      "lat": -26.1074043,
+      "lon": 28.0547271,
+      "note": "Plaza in Sandton with the giant Madiba statue and the Sandton City mall — a useful walk-around if you have an hour to kill before dinner.",
+      "mustSee": false
+    },
+    {
+      "city": "johannesburg",
+      "category": "eat",
+      "name": "Bukhara",
+      "url": "https://www.bukhara.com/",
+      "lat": -26.107137,
+      "lon": 28.05277,
+      "note": "Indian restaurant on Nelson Mandela Square — best curry in Sandton and an easy first-night dinner after the long flights.",
+      "mustSee": false
+    },
+    {
+      "city": "johannesburg",
+      "category": "eat",
+      "name": "The Butcher Shop & Grill",
+      "url": "https://thebutchershop.co.za/",
+      "lat": -26.1071384,
+      "lon": 28.0551634,
+      "note": "Steakhouse on Nelson Mandela Square. South Africa is a beef country — the dry-aged ribeye is the move.",
+      "mustSee": false
+    },
+    {
+      "city": "kruger",
+      "category": "stay",
+      "name": "&Beyond Ngala Safari Lodge",
+      "url": "https://www.andbeyond.com/our-lodges/africa/south-africa/greater-kruger/andbeyond-ngala-safari-lodge/",
+      "lat": -24.381338,
+      "lon": 31.321872,
+      "note": "Colonial-style lodge in the 14,700-hectare &Beyond Ngala Private Game Reserve, sharing an unfenced border with Kruger National Park. Twenty thatched cottages, expert ranger-and-tracker teams, open-air boma dinners. Highlight of the trip.",
+      "mustSee": true,
+      "mustSeeLabel": "Ngala Safari"
+    },
+    {
+      "city": "kruger",
+      "category": "see",
+      "name": "Greater Kruger / Sabi Sand",
+      "url": "https://www.sanparks.org/parks/kruger/",
+      "lat": -24.0,
+      "lon": 31.5,
+      "note": "South Africa's flagship wilderness — Big Five country: lion, leopard, elephant, buffalo, rhino. Best accessed via a private concession (Ngala, Sabi Sand, Timbavati) rather than the public park self-drive.",
+      "mustSee": false
+    },
+    {
+      "city": "kruger",
+      "category": "do",
+      "name": "Hoedspruit Airport (HDS)",
+      "url": null,
+      "lat": -24.3686,
+      "lon": 31.0488,
+      "note": "Tiny gateway airport in Limpopo — one-hour Airlink hop from Johannesburg, ~45-minute transfer from there to Ngala. Open-air arrivals, a literal thatched roof. The trip begins the moment you land.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "stay",
+      "name": "Primi Seacastle",
+      "url": "https://www.primihotels.com/primiseacastle/",
+      "lat": -33.948852,
+      "lon": 18.379232,
+      "note": "Tiny boutique hotel right on Camps Bay's beach strip — Table Mountain behind, the Atlantic out the window. First-leg base in Cape Town.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "stay",
+      "name": "Fairways On The Bay",
+      "url": "https://www.fairwaysonthebay.co.za/",
+      "lat": -33.950066,
+      "lon": 18.3791151,
+      "note": "Eight-room guesthouse a hundred meters from Camps Bay Beach. Used as the second Cape Town base after the Garden Route loop. Quieter than the strip.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Table Mountain",
+      "url": "https://www.sanparks.org/parks/table-mountain/",
+      "lat": -33.962822,
+      "lon": 18.4098406,
+      "note": "The flat-topped icon. You can ride the cableway up in clear weather, or hike one of the routes from Kirstenbosch. Plan for a clear morning before the famous \"tablecloth\" of cloud rolls in.",
+      "mustSee": true
+    },
+    {
+      "city": "capetown",
+      "category": "do",
+      "name": "Skeleton Gorge / Nursery Ravine Hike",
+      "url": "https://www.hiketablemountain.co.za/",
+      "lat": -33.9823801,
+      "lon": 18.4172193,
+      "note": "The classic Table Mountain hike from the back, starting in Kirstenbosch. 5–6 hours up Skeleton Gorge and down Nursery Ravine. Go with a guide from Hike Table Mountain — they know the weather windows.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Kirstenbosch National Botanical Garden",
+      "url": "https://www.sanbi.org/gardens/kirstenbosch/",
+      "lat": -33.9875011,
+      "lon": 18.432722,
+      "note": "World-class botanical garden on the eastern slopes of Table Mountain. Plan a slow afternoon: the Boomslang treetop canopy walk, the protea section, lunch at the tea room. Sunset concerts on summer Sundays.",
+      "mustSee": true
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Cape of Good Hope",
+      "url": "https://www.sanparks.org/parks/table-mountain/tourism/cape-of-good-hope/",
+      "lat": -34.3568425,
+      "lon": 18.4739882,
+      "note": "The southwestern tip of Africa — wild fynbos cliffs, baboons, and Cape Point lighthouse. Best done as a full-day loop along the peninsula, ideally with a local driver who knows the timing.",
+      "mustSee": true
+    },
+    {
+      "city": "capetown",
+      "category": "do",
+      "name": "Cape Point Tour w/ Lynette",
+      "url": "https://exquisitecapetoursandhikes.co.za/",
+      "lat": -34.04,
+      "lon": 18.45,
+      "note": "Eight-hour private guided loop down the Cape Peninsula — Chapman's Peak, the Cape of Good Hope, Boulders penguins, Simon's Town lunch. Lynette at Exquisite Cape Tours runs the best version of this day.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Boulders Penguin Colony",
+      "url": "https://www.sanparks.org/parks/table-mountain/tourism/boulders/",
+      "lat": -34.1956876,
+      "lon": 18.4493598,
+      "note": "A wild colony of ~2,000 African penguins on a beach in Simon's Town. Combines neatly with the Cape Point loop.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Robben Island",
+      "url": "https://www.robben-island.org.za/",
+      "lat": -33.8076073,
+      "lon": 18.3712309,
+      "note": "The prison where Mandela spent 18 of his 27 years. Half-day tour by ferry from the V&A Waterfront, guided by a former political prisoner. Book in advance — tours fill weeks ahead.",
+      "mustSee": true
+    },
+    {
+      "city": "capetown",
+      "category": "neighborhood",
+      "name": "Bo-Kaap",
+      "url": null,
+      "lat": -33.9182226,
+      "lon": 18.4142522,
+      "note": "Cape Malay neighborhood of brightly painted cobblestone houses on the slopes of Signal Hill. Walk it on a Sunday morning; pop into the Bo-Kaap Museum.",
+      "mustSee": true
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "V&A Waterfront",
+      "url": "https://www.waterfront.co.za/",
+      "lat": -33.9066068,
+      "lon": 18.4192665,
+      "note": "Working harbour redeveloped into the city's main eating, shopping, and ferry hub. The V&A Food Market is a quick lunch; the Zeitz MOCAA contemporary-art museum is worth an hour.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "see",
+      "name": "Lion's Head",
+      "url": null,
+      "lat": -33.9350375,
+      "lon": 18.3889709,
+      "note": "Conical peak next to Table Mountain — much shorter hike, panoramic 360 views at the top. Locals do it for sunrise or full-moon sunsets.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "Kloof Street House",
+      "url": "https://www.kloofstreethouse.co.za/",
+      "lat": -33.9282495,
+      "lon": 18.4121569,
+      "note": "Victorian house turned colonial-meets-trendy restaurant on Kloof Street. Outdoor deck under fairy lights — perfect first-night Cape Town dinner.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "The Codfather",
+      "url": "https://codfather.co.za/",
+      "lat": -33.9541778,
+      "lon": 18.377391,
+      "note": "Camps Bay seafood and sushi institution — pick your fish off the ice. No menus; the staff walks you through what came in that day.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "The Bungalow",
+      "url": "https://thebungalow.co.za/",
+      "lat": -33.9429169,
+      "lon": 18.3744434,
+      "note": "Glass-front Clifton beach club at sunset — sundowner cocktails on the deck overhanging the Atlantic. Reserve. The food is fine; the view is the meal.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "The Pot Luck Club",
+      "url": "https://thepotluckclub.co.za/",
+      "lat": -33.9273136,
+      "lon": 18.45745,
+      "note": "Luke Dale Roberts's top-of-the-silo small-plates spot at the Old Biscuit Mill in Woodstock. 360 views, tasting-menu format. Book weeks ahead.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "La Colombe",
+      "url": "https://www.lacolombe.co.za/",
+      "lat": -34.0153893,
+      "lon": 18.4038531,
+      "note": "Tasting-menu fine dining in a forest setting in Constantia. Consistently in South Africa's top 3 restaurants. Long lunch territory; book months ahead.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "Azure at The Twelve Apostles",
+      "url": "https://www.12apostleshotel.com/restaurants-and-bars/azure-restaurant/",
+      "lat": -33.9837988,
+      "lon": 18.3586176,
+      "note": "Cliffside restaurant at the Twelve Apostles Hotel, between Camps Bay and Llandudno. The drive down the coast is half the experience.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "Savoy Cabbage",
+      "url": null,
+      "lat": -33.9202393,
+      "lon": 18.4183009,
+      "note": "Long-running farm-to-table bistro in the CBD — known for the tomato tart and ostrich carpaccio.",
+      "mustSee": false
+    },
+    {
+      "city": "capetown",
+      "category": "eat",
+      "name": "Eastern Food Bazaar",
+      "url": null,
+      "lat": -33.9246445,
+      "lon": 18.422303,
+      "note": "Cheap-and-cheerful pan-Asian food hall on Longmarket Street — biryani, curry, dosas. Lunch territory.",
+      "mustSee": false
+    },
+    {
+      "city": "stellenbosch",
+      "category": "do",
+      "name": "Stellenbosch Wine Tour (Wine Flies)",
+      "url": "https://www.wineflies.co.za/",
+      "lat": -33.9321045,
+      "lon": 18.860152,
+      "note": "Ten-hour small-group day tour from Cape Town through four or five working wineries — Stellenbosch, Franschhoek, sometimes Paarl. Cheese pairings, a long lunch, local guides. Don't try to drive yourself.",
+      "mustSee": true,
+      "mustSeeLabel": "Winelands Day Tour"
+    },
+    {
+      "city": "stellenbosch",
+      "category": "see",
+      "name": "Stellenbosch (town)",
+      "url": "https://www.stellenboschtourism.co.za/",
+      "lat": -33.9321045,
+      "lon": 18.860152,
+      "note": "South Africa's second-oldest European settlement — Cape Dutch architecture under oak trees, art galleries, university-town energy. Stop in town between wineries.",
+      "mustSee": false
+    },
+    {
+      "city": "stellenbosch",
+      "category": "see",
+      "name": "Cape Winelands",
+      "url": null,
+      "lat": -33.9,
+      "lon": 18.95,
+      "note": "Stellenbosch + Franschhoek + Paarl are the historic three. Old estates on dramatic mountain backdrops; the wine is genuinely world-class and the prices are a fraction of California.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "see",
+      "name": "L'Agulhas",
+      "url": null,
+      "lat": -34.8163001,
+      "lon": 20.0151897,
+      "note": "Southernmost tip of the African continent — where the Atlantic and Indian Oceans officially meet. There's a marker stone, a lighthouse, and not much else; that's the point. Easy detour from the Cape Town–Garden Route drive.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "Sea Shack Struisbaai",
+      "url": "http://www.seashackstruisbaai.co.za/",
+      "lat": -34.7975437,
+      "lon": 20.0508455,
+      "note": "Beach shack right on the dunes outside L'Agulhas — fresh fish and chips at picnic tables in the sand. Lunch stop on the drive east.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "stay",
+      "name": "Augusta Bay of Knysna",
+      "url": "https://www.augustabay.co.za/",
+      "lat": -34.07623,
+      "lon": 23.061,
+      "note": "Small guest house perched above Knysna Lagoon with views to the Knysna Heads. Breakfast in the atrium, walking distance to the waterfront.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "see",
+      "name": "Knysna Heads",
+      "url": null,
+      "lat": -34.0765658,
+      "lon": 23.0606041,
+      "note": "Two sandstone cliffs that form the dramatic mouth of Knysna Lagoon — one of the most beautiful estuaries in the country. Park at the East Head Café for the classic view.",
+      "mustSee": true
+    },
+    {
+      "city": "gardenroute",
+      "category": "see",
+      "name": "Margaret's Viewpoint",
+      "url": null,
+      "lat": -34.0350856,
+      "lon": 23.0464693,
+      "note": "Quiet pullout above Knysna with a sweeping view down the lagoon — better than the postcards, and almost always empty.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "East Head Café",
+      "url": "http://www.eastheadcafe.co.za/",
+      "lat": -34.0765658,
+      "lon": 23.0606041,
+      "note": "Knysna brunch institution literally cantilevered over the Heads. The Knysna oysters are local; the view is the meal.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "Freshline Fisheries",
+      "url": "http://freshlinefisheries.co.za/",
+      "lat": -34.041493,
+      "lon": 23.049198,
+      "note": "Working fish co-op at the Knysna Waterfront — buy a paper cone of fresh calamari or hake-and-chips and eat it on the dock.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "JJ's Restaurant",
+      "url": null,
+      "lat": -34.0411703,
+      "lon": 23.0446648,
+      "note": "Knysna Quays dinner spot — steaks, seafood, candlelit waterfront tables.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "do",
+      "name": "Monkeyland & Birds of Eden",
+      "url": "https://www.monkeyland.co.za/",
+      "lat": -33.9648731,
+      "lon": 23.4829761,
+      "note": "Free-roaming primate sanctuary and the world's largest free-flight aviary, side by side outside Plett. Tickets cover both; allow 2–3 hours.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "do",
+      "name": "Jukani Wildlife Sanctuary",
+      "url": "https://jukani.co.za/",
+      "lat": -33.97797,
+      "lon": 23.434656,
+      "note": "Big-cat sanctuary on the same N2 stretch as Monkeyland — lions, tigers, leopards, cheetahs rescued from the wildlife trade. Conservation-first, no cub petting. Combine all three on one Plett afternoon.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "stay",
+      "name": "Plett Beachfront Accommodation",
+      "url": "https://plettbeachfront.com/",
+      "lat": -34.059752,
+      "lon": 23.376685,
+      "note": "Self-catering apartments steps from Central Beach in Plettenberg Bay. Walk to dinner, walk to the beach, that's the brief.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "see",
+      "name": "Robberg Nature Reserve",
+      "url": "https://www.capenature.co.za/reserves/robberg-nature-reserve/",
+      "lat": -34.1040227,
+      "lon": 23.3955575,
+      "note": "Five-hour clifftop loop on a rocky peninsula outside Plett — dolphins below, fur seals at the point, fynbos and sea everywhere. The signature Garden Route walk. Pack water and lunch.",
+      "mustSee": true
+    },
+    {
+      "city": "gardenroute",
+      "category": "see",
+      "name": "Plettenberg Bay",
+      "url": null,
+      "lat": -34.0574892,
+      "lon": 23.3644925,
+      "note": "Resort town on the east end of the Garden Route — long beaches, southern right whales offshore in winter, plus the Crags wildlife sanctuaries 15 minutes east.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "The Lookout Deck",
+      "url": "https://www.lookout.co.za/",
+      "lat": -34.0518694,
+      "lon": 23.3773614,
+      "note": "Open-deck restaurant on the Plett headland with a 180-degree bay view — the spot for whale-watching with a glass of wine in your hand.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "Emily Moon River Lodge",
+      "url": "https://emilymoon.co.za/",
+      "lat": -34.0101235,
+      "lon": 23.3729832,
+      "note": "African-fusion restaurant on a wooden deck over the Bitou River, just inland of Plett. Eclectic decor, very long sunsets.",
+      "mustSee": false
+    },
+    {
+      "city": "gardenroute",
+      "category": "eat",
+      "name": "Clare's Cakes & Coffee",
+      "url": null,
+      "lat": -34.0552975,
+      "lon": 23.3720495,
+      "note": "Tiny Plett bakery for a breakfast pastry and a packed lunch box to take on the Robberg hike.",
+      "mustSee": false
+    }
+  ]
+}

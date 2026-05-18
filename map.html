@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Map &mdash; South Africa Travel Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23d9622f'/%3E%3C/svg%3E">
+  <style>
+    .place-pin { background: none !important; border: none !important; }
+    .legend-btn:hover { border-color: var(--ink-3) !important; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="./"><span class="mark">●</span> South Africa Travel Guide</a>
+      <div class="nav-links">
+        <a href="./">Overview</a>
+        <a href="must-see.html">Must See</a>
+        <a href="cities/johannesburg.html">Joburg</a>
+        <a href="cities/kruger.html">Safari</a>
+        <a href="cities/capetown.html">Cape Town</a>
+        <a href="cities/stellenbosch.html">Stellenbosch</a>
+        <a href="cities/gardenroute.html">Garden Route</a>
+        <a href="itinerary.html">Itinerary</a>
+        <a href="map.html" class="active">Map</a>
+        <a href="photos.html">Photos</a>
+        <a href="logistics.html">Logistics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <header class="city-header">
+        <div>
+          <p class="eyebrow">All visited places</p>
+          <h1>The whole trip on one map.</h1>
+          <div class="city-meta">Every stop, color-coded by region. Click a pin for the note. Toggle regions below to filter.</div>
+        </div>
+      </header>
+
+      <section class="section">
+        <div id="legend" class="legend"></div>
+        <div id="map"></div>
+        <p class="muted" style="margin-top: 16px; font-size: 0.85rem;">
+          Base tiles by <a href="https://carto.com/attributions">Carto</a> &middot;
+          data by <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>Trip taken Nov 2017 &middot; share freely</div>
+      <div><a href="./">&larr; back to overview</a></div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="assets/js/map.js"></script>
+</body>
+</html>

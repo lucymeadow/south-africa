@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garden Route &mdash; South Africa Travel Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23d9622f'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../"><span class="mark">●</span> South Africa Travel Guide</a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="../must-see.html">Must See</a>
+        <a href="johannesburg.html">Joburg</a>
+        <a href="kruger.html">Safari</a>
+        <a href="capetown.html">Cape Town</a>
+        <a href="stellenbosch.html">Stellenbosch</a>
+        <a href="gardenroute.html" class="active">Garden Route</a>
+        <a href="../itinerary.html">Itinerary</a>
+        <a href="../map.html">Map</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../logistics.html">Logistics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <header class="city-header" style="--accent: var(--c-gardenroute);">
+        <div>
+          <p class="eyebrow">Garden Route &middot; Tuinroete</p>
+          <h1>Garden Route</h1>
+          <div class="city-meta">A road trip east from Cape Town &middot; 2 nights through L'Agulhas, Knysna, Plett.</div>
+        </div>
+        <div class="city-local-big">Tuinroete</div>
+      </header>
+
+      <div class="city-map-wrap">
+        <div id="city-map" data-city="gardenroute" aria-label="Map of places along the Garden Route"></div>
+        <p class="city-map-caption">
+          <span>Click any pin for the note and links.</span>
+          <span><a href="../map.html">see the full trip map &rarr;</a></span>
+        </p>
+      </div>
+
+      <section class="section">
+
+        <div class="tag-row">
+          <span class="tag">Rental car required</span>
+          <span class="tag">N2 east from Cape Town</span>
+          <span class="tag">Drive on the left</span>
+          <span class="tag">Allow a long day each way</span>
+        </div>
+
+        <p>
+          The Garden Route is the classic coastal road trip east from Cape Town &mdash; some
+          200 km of forested mountain, lagoon, and cliffs along the southern Cape coast.
+          Officially it runs from <b>Mossel Bay</b> to <b>Storms River</b>; we drove the
+          backbone of it, stopping in Knysna and Plettenberg Bay, with the optional southern
+          detour to <b>L'Agulhas</b> &mdash; the actual tip of the African continent &mdash; on
+          the way out.
+        </p>
+
+        <p>
+          A two-night Garden Route trip is the minimum that feels worth it. Three or four nights
+          gives you proper time for the wildlife sanctuaries, more of the hiking at Robberg or
+          Tsitsikamma, and an afternoon in the indigenous forest.
+        </p>
+
+        <h2>The drive</h2>
+        <div class="callout" style="--accent: var(--c-gardenroute);">
+          <h3>Cape Town &rarr; Knysna, the scenic version</h3>
+          <p>
+            <b>Cape Town &rarr; L'Agulhas</b> (~3 hr, via the N2 then south on the R316) for a
+            quick stop at the official southern tip of Africa.<br>
+            <b>L'Agulhas &rarr; Mossel Bay</b> (~3 hr, back to the N2 east). Lunch at the
+            <a href="http://www.seashackstruisbaai.co.za/" target="_blank" rel="noopener">Sea Shack</a> on the dunes.<br>
+            <b>Mossel Bay &rarr; Knysna</b> (~1.5 hr) on the N2 through the forest.<br>
+            Total: ~8 hours of driving plus stops. Leave early.
+          </p>
+        </div>
+
+        <h2>Where we stayed</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Stay</span></div>
+            <div class="body">
+              <h3><a href="https://www.augustabay.co.za/" target="_blank" rel="noopener">Augusta Bay of Knysna</a></h3>
+              <p>Small guest house perched above Knysna Lagoon with views to the Knysna Heads.
+                Breakfast in the central atrium, walking distance to the Knysna Quays.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Stay</span></div>
+            <div class="body">
+              <h3><a href="https://plettbeachfront.com/" target="_blank" rel="noopener">Plett Beachfront Accommodation</a></h3>
+              <p>Self-catering apartments steps from Central Beach in Plettenberg Bay. Walk to
+                dinner, walk to the beach, that's the brief.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Knysna</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Knysna+Heads" target="_blank" rel="noopener">Knysna Heads</a></h3>
+              <p>Two sandstone cliffs that form the dramatic mouth of Knysna Lagoon &mdash; one
+                of the most photographed estuaries in the country. Drive out to the East Head
+                viewpoint and look back into the lagoon. The narrow channel between the heads
+                is so treacherous it's considered un-navigable by larger boats.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Margaret%27s+Viewpoint+Knysna" target="_blank" rel="noopener">Margaret's Viewpoint</a></h3>
+              <p>Quiet pullout above Knysna with a sweeping view down the lagoon &mdash; better
+                than the postcards, and almost always empty.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="http://www.eastheadcafe.co.za/" target="_blank" rel="noopener">East Head Café</a></h3>
+              <p>Brunch institution literally cantilevered over the Heads. Order
+                <b>Knysna oysters</b> &mdash; they're local, briny, and cheap. The view is the
+                meal.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $</span></div>
+            <div class="body">
+              <h3><a href="http://freshlinefisheries.co.za/" target="_blank" rel="noopener">Freshline Fisheries</a></h3>
+              <p>Working fish co-op at the Knysna Waterfront &mdash; paper cones of fresh
+                calamari or hake-and-chips, eat on the dock.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=JJ%27s+Restaurant+Knysna" target="_blank" rel="noopener">JJ's Restaurant</a></h3>
+              <p>Dinner spot on the Knysna Quays &mdash; steaks, seafood, candlelit
+                waterfront tables.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Plettenberg Bay</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.capenature.co.za/reserves/robberg-nature-reserve/" target="_blank" rel="noopener">Robberg Nature Reserve</a></h3>
+              <p>Five-hour clifftop loop on a rocky peninsula outside Plett &mdash; dolphins
+                below, fur seal colony at the point, fynbos and sea everywhere. The signature
+                Garden Route hike. <b>Pack water, lunch, and good shoes.</b> Watch the tide at
+                the sand-bar crossing.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Do</span></div>
+            <div class="body">
+              <h3><a href="https://www.monkeyland.co.za/" target="_blank" rel="noopener">Monkeyland &amp; Birds of Eden</a></h3>
+              <p>Free-roaming primate sanctuary and the world's largest free-flight aviary,
+                side by side in the Crags outside Plett. Tickets cover both; the guided forest
+                walks take ~2&ndash;3 hours total.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Do</span></div>
+            <div class="body">
+              <h3><a href="https://jukani.co.za/" target="_blank" rel="noopener">Jukani Wildlife Sanctuary</a></h3>
+              <p>Big-cat sanctuary on the same N2 stretch &mdash; lions, tigers, leopards,
+                cheetahs rescued from the wildlife trade. Conservation-first ethic, no cub
+                petting. Combine all three sanctuaries on a single Plett afternoon.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://www.lookout.co.za/" target="_blank" rel="noopener">The Lookout Deck</a></h3>
+              <p>Open-deck restaurant on the Plett headland with a 180-degree bay view. The
+                spot for whale-watching with a glass of wine in your hand
+                (Jun&ndash;Nov for southern right whales).</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://emilymoon.co.za/" target="_blank" rel="noopener">Emily Moon River Lodge</a></h3>
+              <p>African-fusion restaurant on a wooden deck over the Bitou River, just inland of
+                Plett. Eclectic decor, very long sunsets.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Clare%27s+Cakes+Plett" target="_blank" rel="noopener">Clare's Cakes &amp; Coffee</a></h3>
+              <p>Tiny Plett bakery for a breakfast pastry and a packed lunch box to carry on
+                the Robberg hike.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Quick detours</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=L%27Agulhas+lighthouse" target="_blank" rel="noopener">L'Agulhas (southern tip of Africa)</a></h3>
+              <p>The actual southernmost point of the continent &mdash; where the Atlantic and
+                Indian Oceans officially meet. A marker stone, a 19th-century lighthouse, and
+                not much else; that's the point. Worthwhile detour on the way out of Cape Town.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $</span></div>
+            <div class="body">
+              <h3><a href="http://www.seashackstruisbaai.co.za/" target="_blank" rel="noopener">Sea Shack Struisbaai</a></h3>
+              <p>Beach shack right on the dunes outside L'Agulhas &mdash; fresh fish and chips
+                at picnic tables in the sand. The lunch stop on the drive east.</p>
+            </div>
+          </li>
+        </ul>
+
+        <hr class="divider">
+
+        <div class="callout">
+          <h3>If you have an extra night or two</h3>
+          <p>
+            <b>Tsitsikamma National Park</b> (45 min east of Plett) for the suspension bridge
+            and indigenous forest hikes &mdash; sleep in one of the SANParks chalets or at the
+            <a href="https://www.tsitsikammavillage.com/" target="_blank" rel="noopener">Tsitsikamma Village Inn</a>.<br><br>
+            <b>Bloukrans Bridge bungee jump</b> (216 m) is in the same stretch &mdash; the
+            world's highest bridge jump if you're into that kind of holiday.<br><br>
+            <b>Hermanus</b> (1.5 hr east of Cape Town) for southern right whale watching off
+            the cliffs, Jun&ndash;Nov. The "whale crier" walks the cliff with a kelp horn.
+          </p>
+        </div>
+
+        <p class="muted">
+          Continue back to <a href="capetown.html">Cape Town</a> or back to the
+          <a href="../">overview</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>Trip taken Nov 2017 &middot; share freely</div>
+      <div><a href="../">&larr; back to overview</a></div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="../assets/js/city-map.js"></script>
+</body>
+</html>

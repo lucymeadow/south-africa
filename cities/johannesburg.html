@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Johannesburg &mdash; South Africa Travel Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='40' fill='%23d9622f'/%3E%3C/svg%3E">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="../"><span class="mark">●</span> South Africa Travel Guide</a>
+      <div class="nav-links">
+        <a href="../">Overview</a>
+        <a href="../must-see.html">Must See</a>
+        <a href="johannesburg.html" class="active">Joburg</a>
+        <a href="kruger.html">Safari</a>
+        <a href="capetown.html">Cape Town</a>
+        <a href="stellenbosch.html">Stellenbosch</a>
+        <a href="gardenroute.html">Garden Route</a>
+        <a href="../itinerary.html">Itinerary</a>
+        <a href="../map.html">Map</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../logistics.html">Logistics</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <header class="city-header" style="--accent: var(--c-johannesburg);">
+        <div>
+          <p class="eyebrow">Johannesburg &middot; iGoli</p>
+          <h1>Johannesburg</h1>
+          <div class="city-meta">The hub. Used as transit either side of the safari &mdash; 2 nights total in Sandton.</div>
+        </div>
+        <div class="city-local-big">iGoli</div>
+      </header>
+
+      <div class="city-map-wrap">
+        <div id="city-map" data-city="johannesburg" aria-label="Map of places in Johannesburg"></div>
+        <p class="city-map-caption">
+          <span>Click any pin for the note and links.</span>
+          <span><a href="../map.html">see the full trip map &rarr;</a></span>
+        </p>
+      </div>
+
+      <section class="section">
+
+        <div class="tag-row">
+          <span class="tag">Sandton base</span>
+          <span class="tag">Uber for everything</span>
+          <span class="tag">Don't walk at night</span>
+          <span class="tag">Transit stop</span>
+        </div>
+
+        <p>
+          Joburg is the international gateway: most flights into South Africa land at O.R. Tambo
+          (JNB), and most safaris connect through here. We used it as a sleep-and-dinner stop
+          either side of the bush. <b>Stay in Sandton</b> &mdash; the modern business district
+          with hotels, restaurants, and Nelson Mandela Square clustered close together. The
+          rest of Joburg is fascinating (Constitution Hill, Apartheid Museum, Soweto) and
+          worth a real visit on a future trip; this guide is just the transit version.
+        </p>
+
+        <h2>Where we stayed</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Stay</span></div>
+            <div class="body">
+              <h3><a href="https://www.thecapital.co.za/our-hotels/the-capital-empire-sandton" target="_blank" rel="noopener">The Capital Empire</a></h3>
+              <p>Apartment-style hotel in Sandton, ~20 minutes from O.R. Tambo and walking distance
+                to Nelson Mandela Square. Quiet, modern rooms, useful kitchenettes if your flight
+                lands at a weird hour. Same hotel both stops.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Things to do (in transit)</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">See</span></div>
+            <div class="body">
+              <h3><a href="https://www.google.com/maps/search/?api=1&amp;query=Nelson+Mandela+Square+Sandton" target="_blank" rel="noopener">Nelson Mandela Square</a></h3>
+              <p>Open plaza in Sandton with the famous 6-meter bronze of Madiba and the entrance
+                to the Sandton City mall. Useful early-evening walk before dinner; both Bukhara
+                and The Butcher Shop &amp; Grill open onto the square.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Where we ate</h2>
+        <ul class="place-list">
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$</span></div>
+            <div class="body">
+              <h3><a href="https://www.bukhara.com/" target="_blank" rel="noopener">Bukhara</a></h3>
+              <p>Long-running Indian restaurant on Nelson Mandela Square &mdash; tandoor lamb,
+                black daal, a serious wine list, generous portions. The best easy first-night
+                dinner after the long flight in.</p>
+            </div>
+          </li>
+          <li class="place">
+            <div class="meta"><span class="cat">Eat &middot; $$$</span></div>
+            <div class="body">
+              <h3><a href="https://thebutchershop.co.za/" target="_blank" rel="noopener">The Butcher Shop &amp; Grill</a></h3>
+              <p>Old-school steakhouse on the square. South Africa is a beef country, and this is
+                where you remind yourself of that fact &mdash; dry-aged ribeye, a heavy red, no
+                apologies. Booking helps.</p>
+            </div>
+          </li>
+        </ul>
+
+        <h2>If you have a real day in Joburg</h2>
+        <p class="muted">
+          We didn't have time on this trip, but the things to add for a 24&ndash;48 hour visit are
+          <a href="https://www.apartheidmuseum.org/" target="_blank" rel="noopener">the Apartheid
+          Museum</a>, <a href="https://constitutionhill.org.za/" target="_blank" rel="noopener">
+          Constitution Hill</a>, and a <a href="https://www.google.com/maps/search/?api=1&amp;query=Soweto+tour" target="_blank" rel="noopener">guided Soweto tour</a> that includes Vilakazi Street
+          (the only street in the world to have housed two Nobel laureates, Mandela and Tutu).
+          They're the reason to spend a proper day here.
+        </p>
+
+        <hr class="divider">
+        <p class="muted">
+          Continue to <a href="kruger.html">the safari</a> or back to the
+          <a href="../">overview</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>Trip taken Nov 2017 &middot; share freely</div>
+      <div><a href="../">&larr; back to overview</a></div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="../assets/js/city-map.js"></script>
+</body>
+</html>
